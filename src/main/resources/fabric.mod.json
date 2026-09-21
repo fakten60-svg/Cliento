@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "dynamic_fps",
+  "version": "${version}",
+  "name": "Cyemer+",
+  "description": "A consolidated Cyemer client for Minecraft 1.21.11 with combat, movement, render, HUD, config and friend systems.",
+  "authors": [
+    "lime53._72375"
+  ],
+  "contributors": [
+    "Cyemer+ contributors"
+  ],
+  "contact": {
+    "sources": "https://github.com/fakten60-svg/Cliento"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dynamic_fps/textures/icon.png",
+  "environment": "client",
+  "mixins": [
+    "cyemer.client.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "com.slither.cyemer.Cyemer",
+      "com.slither.cyemer.CyemerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "fabric-api": ">=0.141.4+1.21.11"
+  }
+}
